@@ -11,7 +11,8 @@ export interface ArtProject {
 export class ArtProject {
   static async list(sortBy: string = "order"): Promise<ArtProject[]> {
     try {
-      const response = await fetch('/artprojects.json');
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const response = await fetch(`${baseUrl}artprojects.json`);
       const projects = await response.json();
 
       if (sortBy === "order") {
