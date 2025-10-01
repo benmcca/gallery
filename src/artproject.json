@@ -1,0 +1,34 @@
+{
+  "name": "ArtProject",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Project title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Project description"
+    },
+    "year": {
+      "type": "string",
+      "description": "Year created"
+    },
+    "medium": {
+      "type": "string",
+      "description": "Medium used (oil, digital, etc.)"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of image URLs"
+    },
+    "order": {
+      "type": "number",
+      "description": "Display order"
+    }
+  },
+  "required": ["title"]
+}

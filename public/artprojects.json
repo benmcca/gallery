@@ -1,0 +1,36 @@
+[
+  {
+    "id": "project-1",
+    "title": "Untitled Landscape",
+    "description": "An exploration of light and shadow through natural forms, capturing the essence of a fleeting moment in time.",
+    "year": "2024",
+    "medium": "Oil on canvas",
+    "images": [
+      "https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "order": 1
+  },
+  {
+    "id": "project-2",
+    "title": "Urban Reflections",
+    "description": "A study of modern architecture and its relationship with the surrounding environment.",
+    "year": "2023",
+    "medium": "Digital",
+    "images": [
+      "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "order": 2
+  },
+  {
+    "id": "project-3",
+    "title": "Abstract Composition No. 7",
+    "description": "A vibrant exploration of color theory and geometric forms, inspired by the intersection of nature and mathematics.",
+    "year": "2023",
+    "medium": "Acrylic on canvas",
+    "images": [
+      "https://images.pexels.com/photos/170945/pexels-photo-170945.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "order": 3
+  }
+]
